@@ -1,6 +1,16 @@
 build/
 dist/
 docs/.build/
-pyrad.egg-info/
-*.pyc
+
 *__pycache__
+*.py[cod]
+
+# Packages
+*.egg
+*.egg-info
+
+# Unit test / coverage reports
+.coverage
+
+# VIM
+.*.swp
